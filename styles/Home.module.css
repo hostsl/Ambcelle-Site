@@ -1,0 +1,16 @@
+.indMapa {
+  position: relative;
+  display: flex;
+}
+
+.indMapa>* {
+  flex: 0 1 auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 3px #ccc;
+  z-index: 1;
+}
+
+.respIframe {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
